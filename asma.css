@@ -1,0 +1,384 @@
+.top-menu{
+	border: 1px solid grey;
+	display: flex;
+	justify-content: space-between;
+	height: 116px;
+}
+.logo {
+    border-right: solid 1px grey;
+    margin: 0px -15px -1px -2px;
+
+}
+.content1 { 
+    display: flex;
+    flex-flow: row wrap;
+    width: 1202px;
+    
+    padding: 0px 1px 0 56px;
+}
+.haut{
+	display: flex;
+	/*justify-content: space-between;*/
+	margin: -1px 9px -48px -71px;
+	width: 890px;
+}
+.bas{
+	display: none;
+	background-color: #a19999;
+	margin-top: 20px;
+	    width: 641px;
+}
+.product-hover:hover .bas{
+display: flex;
+}
+.product-hover{
+	margin-top: 8px;
+	width: 100px;
+}
+li{list-style: none;}
+a{text-decoration: none;
+padding: 9px 30px}
+ul{    margin: -1px 68px -47px 58px;}
+
+.menu-wistia2{
+	padding: 15px 30px;
+	display: flex;
+}
+.connexion {
+    display: flex;
+}
+.sign {
+    display: flex;
+    width: 99px;
+    font-size: 18px;
+    font-family: cursive;
+    font-style: italic;
+    border-left: 1px solid grey;
+       /*justify-content: space-between;*/
+    padding: 47px 28px 37px;
+    color: #2196f3;
+}
+.gg-enter {
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+  transform: scale(var(--ggs, 1));
+  width: 16px;
+  height: 18px;
+  border: 2px solid;
+  border-left: 0;
+  box-shadow: -8px -6px 0 -6px, -8px 6px 0 -6px;
+}
+.gg-key {
+  margin: 7px;
+}
+.gg-enter::after,
+.gg-enter::before {
+  content: '';
+  display: block;
+  box-sizing: border-box;
+  position: absolute;
+  right: 4px;
+}
+.gg-enter::before {
+  background: currentColor;
+  width: 16px;
+  height: 2px;
+  top: 6px;
+}
+.gg-enter::after {
+  width: 6px;
+  height: 6px;
+  border-right: 2px solid;
+  border-top: 2px solid;
+  top: 4px;
+  transform: rotate(45deg);
+}
+.gg-key {
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+  transform: scale(var(--ggs, 1));
+  width: 6px;
+  height: 8px;
+  border: 2px solid;
+  border-radius: 100px;
+  margin-left: -12px;
+}
+.gg-key::after,
+.gg-key::before {
+  content: '';
+  display: block;
+  box-sizing: border-box;
+  position: absolute;
+  right: -12px;
+}
+.gg-key::before {
+  background: currentColor;
+  width: 12px;
+  height: 2px;
+  top: 1px;
+}
+.gg-key::after {
+  width: 5px;
+  height: 3px;
+  top: 2px;
+  border-left: 2px solid;
+  border-right: 2px solid;
+}
+.main-container{
+	display: flex;
+	justify-content: space-between;
+	background-color: #c896a5;
+	height: 600px
+}
+.video-software{
+	display: flex;
+	flex-direction: column;
+	margin:151px 0 50px 114px;
+}
+.video-button{
+    color: black;
+    padding: 13px 13px;
+    text-align: center;
+    font-size: 26px;
+    margin: 0px 194px 0px -4px;
+    cursor: pointer;
+    font-family: cursive;
+    border-radius: 13px;
+}
+.line1{
+color: white;
+font-size: 40px;
+   }
+.span1{color:#2f2929;
+}
+.wistia-video{
+ margin-right: 223px;
+}
+.main-container2{
+ display: flex;
+ height: 400px;
+}
+.hosting{
+	background-color: #ffc107;
+	padding: 30px;
+	display: flex;
+	flex-direction: column-reverse;
+}
+.soapbox{
+	border: 1px solid aqua;
+	background-color: #298c68;
+	padding: 30px;
+	display: flex;
+	flex-direction: column-reverse;
+}
+.grow{
+	background-color: #03a9f4;
+	padding:30px;
+	display: flex;
+	flex-direction: column-reverse;
+}
+.icon1{
+	width: 55px;
+color: #2196f3;
+}
+.icon2{
+	width:55px;
+	color: pink;
+}
+.icon3{
+	width:55px;
+	color: yellow;
+	}
+
+.title-container2{
+	color: white;
+	font-family: sans-serif;
+}
+.parag-container2{
+	font-size: 25px;
+}
+.for1{
+  background-color: #ffc107; 
+}
+.for2{
+  background-color: #298c68; 
+}
+.for3{
+  background-color: #03a9f4; 
+}
+.for4{
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 0px 117px;
+  cursor: pointer;
+  border: 2px solid white;
+}
+#hover1:hover ~svg  
+{
+	fill:red;
+}
+#hover2:hover ~svg  
+{
+	fill:red;
+}
+#hover3:hover ~svg  
+{
+	fill:red;
+}
+.main-container3{
+	
+	height: 100px;
+
+	align-items: center;
+}
+.sponseurs{
+	display: flex;
+	justify-content: space-between;
+	margin: 72px 60px 0px 60px;
+
+	}
+	.parag-sponseurs{
+    padding: 20px;
+    width: 151px;
+    color: #a8a8a8;
+    font-weight: bold;
+    font-size: 19px;
+	}
+	.main-container4{
+	
+		display: flex;
+		margin: 60px ;
+		justify-content: space-between;
+	}
+.esp{
+	   margin: 74px 58px;
+}
+.main-container4-title{ 
+color: #626262;
+    font-family: sans-serif; }
+
+.main-container4-parag{
+	color: #626262;
+	font-family: sans-serif;
+	font-size: 16px;
+
+}
+.link1{
+    padding: 0px;
+    color: blue;
+    text-decoration: underline;
+
+}
+.last-main {
+    background-color: #dcd5d5;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-footer {
+    text-align: center;
+    color: #7f7a7a;
+    font-weight: bold;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.block-footer{
+	display: flex;
+	justify-content: center;
+}
+
+#info {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  margin: 50px
+}
+
+ #info th {
+     height: 65px;
+    color: darkgrey;
+    text-align: start;
+
+}
+.c1{
+
+	color: grey;
+}
+.footer1{padding: 60px;
+    width: 310px;
+    margin-right: 121px;
+} 
+.block-footer{
+	background-color: black;
+}
+
+.plateform{color: white; font-weight: bold;}
+.links{color: white; font-weight: bold;}
+.links a {color: blue;}
+footer{background-color: black;}
+.footer2{
+	color: grey;text-align: center;
+	height: 100px;
+	font-size: 20px;
+	font-weight: bold;
+	border-top: 1px solid white;
+	margin-left:100px;
+	margin-right:100px;
+}
+
+.image-hover1{
+ opacity: 1;
+  display: block;
+
+
+  transition: .5s ease;
+  backface-visibility: hidden;
+
+}
+.play{
+	
+	 position: relative;
+ 
+}
+.play:hover .image-hover1{ opacity: 0.3; }
+
+
+.image-hover2{
+ opacity: 1;
+  display: block;
+  width: 350px;
+  height:300px;
+
+  transition: .5s ease;
+  backface-visibility: hidden;
+
+}
+.give{
+	
+	 position: relative;
+ 
+}
+.give:hover .image-hover2{ opacity: 0.3; }
+
+
+
+.image-hover3{
+ opacity: 1;
+  display: block;
+  width: 350px;
+  height:300px;
+
+  transition: .5s ease;
+  backface-visibility: hidden;
+
+}
+.relive{
+	
+	 position: relative;
+ 
+}
+.relive:hover .image-hover3{ opacity: 0.3; }
